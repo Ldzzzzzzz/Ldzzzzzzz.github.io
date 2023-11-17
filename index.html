@@ -14,13 +14,35 @@
         }
 
         .greeting {
-            font-size: 200px; /* Taille de la police */
-            color: #333333; /* Couleur du texte */
-            text-shadow: 2px 2px 4px #999999; /* Ombre du texte */
+            color: #333333;
+            text-shadow: 2px 2px 4px #999999;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style pour les écrans larges (ordinateurs de bureau, laptops) */
+        @media (min-width: 1024px) {
+            .greeting {
+                font-size: 60px;
+            }
+        }
+
+        /* Style pour les écrans de taille moyenne (tablettes) */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .greeting {
+                font-size: 40px;
+            }
+        }
+
+        /* Style pour les écrans plus petits (smartphones) */
+        @media (max-width: 767px) {
+            .greeting {
+                font-size: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="greeting">QUOICOUBEH</div>
+    <div class="greeting">QOUICOUBEH</div>
 </body>
 </html>
