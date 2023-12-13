@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>APAGNAN</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-
-        .greeting {
-            color: #333333;
-            text-shadow: 2px 2px 4px #999999;
-            padding: 20px;
-            text-align: center;
-        }
-
-        /* Style pour les écrans larges (ordinateurs de bureau, laptops) */
-        @media (min-width: 1024px) {
-            .greeting {
-                font-size: 200px;
-            }
-        }
-
-        /* Style pour les écrans de taille moyenne (tablettes) */
-        @media (min-width: 768px) and (max-width: 1023px) {
-            .greeting {
-                font-size: 100px;
-            }
-        }
-
-        /* Style pour les écrans plus petits (smartphones) */
-        @media (max-width: 767px) {
-            .greeting {
-                font-size: 50px;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Blog Page | AsmrProg</title>
 </head>
+
 <body>
-    <div class="greeting">ldz</div>
+
+    <div class="container">
+        <header>
+            <div class="category">Identité de l'entreprise</div>
+            <div class="info">
+                <div class="tags">
+                    <i class="fa-solid fa-tag"></i>
+                    <span>www.societe.com</span>
+                </div>
+                <h1 class="title">MONSIEUR POLO MAILLARD</h1>
+                <p class="subtitle">Présentation de la société MONSIEUR POLO MAILLARD</p>
+            </div>
+        </header>
+        <section class="details">
+            <div class="item">
+                <h5 class="item-title">Numéro SIREN</h5>
+                <p class="item-text"><span class="item-data">947542593</span></p>
+            </div>
+            <div class="item">
+                <h5 class="item-title">Numéro SIRET (siège)</h5>
+                <p class="item-text"><span class="item-data">94754259300019</span></p>
+            </div>
+            <div class="item">
+                <h5 class="item-title">Numéro TVA Intracommunautaire</h5>
+                <p class="item-text"><span class="item-data">FR14947542593</span></p>
+            </div>
+        </section>
+        <article>
+            <h4>Qu'en est il de la société ?</h4>
+            <p>MONSIEUR POLO MAILLARD, entrepreneur individuel, immatriculée sous le SIREN 947542593, est en activité depuis 1 an. Établie à SAINT-JEAN-DE-BRAYE (45800), elle est spécialisée dans le secteur d'activité des autres quoicou travaux de finition.
+            </p>
+
+
+            <h4>Renseignements juridiques</h4>
+            <p>Date création entreprise : 
+                20-11-2022
+                 - il y a 1 an</p>
+            <blockquote>
+                " 130 euros !? " &mdash; Polo Maillard
+            </blockquote>
+            <p>s/o JB pour les travaux
+            </p>
+        </article>
+    </div>
+
 </body>
+
 </html>
